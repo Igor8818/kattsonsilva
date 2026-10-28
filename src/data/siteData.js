@@ -44,8 +44,8 @@ export const PROFILE_INFO = {
 };
 
 export const DEFAULT_PHOTOS = {
-  hero: './images/kattson-silva-hero.jpg',
-  about: './images/kattson-office-portrait.jpg',
+  hero: './images/kattson_real_portrait.jpg',
+  about: './images/dr-kattson-1.jpg',
   team: './images/equipe-kattson-silva.jpg',
   plaque: './images/kattson-escritorio.jpg',
 };
@@ -160,7 +160,7 @@ export const EQUIPE_INFO = {
       name: 'Dr. Kattson Silva',
       role: 'Sócio-Fundador & Diretor Jurídico',
       badge: 'OAB/BA 47.242',
-      image: './images/kattson-silva-hero.jpg',
+      image: './images/kattson_real_portrait.jpg',
       bio:
         'Advogado pós-graduado em Direito do Trabalho, Cível e Previdenciário pela CESUPI, com especialização avançada em Prática Trabalhista (IMADEC) e graduação pela UNIME Itabuna. Lidera a estratégia contenciosa e institucional da banca.',
       specialties: ['Direito do Trabalho', 'Direito Previdenciário', 'Contencioso Estratégico']

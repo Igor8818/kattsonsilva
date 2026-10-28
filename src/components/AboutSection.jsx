@@ -14,7 +14,7 @@ export const AboutSection = ({ photos }) => {
   const currentTab = CREDENCIAIS_TABS[activeTabKey];
 
   return (
-    <section id="sobre" className="py-16 md:py-28 bg-[#0B0C10] text-white relative overflow-hidden">
+    <section id="sobre" className="py-16 md:py-28 bg-[#0E121B] text-white relative overflow-hidden">
       {/* Background ambient lighting */}
       <div className="absolute top-1/2 left-0 w-96 h-96 bg-[#DFBD7F]/10 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-10 right-10 w-96 h-96 bg-[#1A1C23]/25 rounded-full blur-3xl pointer-events-none" />
@@ -27,11 +27,11 @@ export const AboutSection = ({ photos }) => {
             <div className="relative rounded-2xl overflow-hidden border-2 border-[#DFBD7F]/40 shadow-2xl bg-[#16181F] group">
               <div className="aspect-[3/4] w-full overflow-hidden">
                 <img
-                  src={photos?.about || './images/kattson-office-portrait.jpg'}
-                  alt="Dr. Kattson Silva no Escritório"
+                  src={photos?.about || './images/dr-kattson-1.jpg'}
+                  alt="Dr. Kattson Silva - Advogado OAB/BA 47.242"
                   className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700 filter contrast-105"
                   onError={(e) => {
-                    e.target.src = './images/kattson-silva.jpg';
+                    e.target.src = './images/dr-kattson-1.jpg';
                   }}
                 />
               </div>
