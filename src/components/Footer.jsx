@@ -36,7 +36,7 @@ export const Footer = () => {
                 href={PROFILE_INFO.instagramUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-8 h-8 rounded-lg bg-[#16181F] border border-slate-700 hover:border-[#DFBD7F] hover:text-[#EBD8B8] flex items-center justify-center transition-colors"
+                className="w-8 h-8 rounded-lg bg-[#141722] border border-slate-700 hover:border-[#DFBD7F] hover:text-[#EBD8B8] flex items-center justify-center transition-colors"
                 title="Instagram Oficial"
               >
                 <InstagramIcon className="w-4 h-4 text-[#DFBD7F]" />
@@ -45,7 +45,7 @@ export const Footer = () => {
                 href={PROFILE_INFO.lattesUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-8 h-8 rounded-lg bg-[#16181F] border border-slate-700 hover:border-[#DFBD7F] hover:text-[#EBD8B8] flex items-center justify-center transition-colors"
+                className="w-8 h-8 rounded-lg bg-[#141722] border border-slate-700 hover:border-[#DFBD7F] hover:text-[#EBD8B8] flex items-center justify-center transition-colors"
                 title="Currículo Lattes CNPq"
               >
                 <LattesIcon className="w-4 h-4 text-[#DFBD7F]" />
@@ -129,7 +129,7 @@ export const Footer = () => {
             </p>
             <button
               onClick={scrollToTop}
-              className="p-2 rounded-lg bg-[#16181F] border border-slate-700 text-slate-300 hover:text-white hover:border-[#DFBD7F] transition-colors"
+              className="p-2 rounded-lg bg-[#141722] border border-slate-700 text-slate-300 hover:text-white hover:border-[#DFBD7F] transition-colors"
               title="Voltar ao topo"
             >
               <ArrowUp className="w-3.5 h-3.5" />

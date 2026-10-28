@@ -5,15 +5,15 @@ import { InstagramIcon } from './Icons';
 
 export const TeamSection = () => {
   return (
-    <section id="equipe" className="py-16 md:py-28 bg-[#111622] text-white relative overflow-hidden">
+    <section id="equipe" className="py-16 md:py-28 bg-[#0B0C10] text-white relative overflow-hidden">
       {/* Background ambient lighting */}
       <div className="absolute top-1/3 right-1/4 w-[450px] h-[450px] bg-[#DFBD7F]/12 rounded-full blur-[110px] pointer-events-none" />
-      <div className="absolute bottom-10 left-10 w-[350px] h-[350px] bg-[#2E3C56]/25 rounded-full blur-[90px] pointer-events-none" />
+      <div className="absolute bottom-10 left-10 w-[350px] h-[350px] bg-[#DFBD7F]/8 rounded-full blur-[90px] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Cabeçalho */}
         <div className="text-center max-w-3xl mx-auto space-y-4 mb-12 sm:mb-16">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#1E2738] border border-[#DFBD7F]/40 text-xs text-[#F5E6CC] font-semibold tracking-wider uppercase shadow-xs">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#141722] border border-[#DFBD7F]/40 text-xs text-[#F5E6CC] font-semibold tracking-wider uppercase shadow-xs">
             Corpo Jurídico &amp; Equipe
           </div>
           <h2 className="font-serif-editorial text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight">
@@ -26,7 +26,7 @@ export const TeamSection = () => {
         </div>
 
         {/* Showcase Executivo da Equipe: Foto Real em Alta Definição + Apresentação */}
-        <div className="mb-16 rounded-3xl p-6 sm:p-8 lg:p-10 bg-gradient-to-br from-[#1E2738] via-[#161D2B] to-[#0E121B] border border-[#DFBD7F]/40 shadow-2xl">
+        <div className="mb-16 rounded-3xl p-6 sm:p-8 lg:p-10 bg-gradient-to-br from-[#141722] via-[#10121A] to-[#0B0C10] border border-[#DFBD7F]/40 shadow-2xl">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
             
             {/* Foto Real da Equipe com Proporção Nítida e Sem Esticar */}
@@ -41,7 +41,7 @@ export const TeamSection = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent pointer-events-none" />
                 
                 {/* Badge Dourado sobre a Foto */}
-                <div className="absolute bottom-3.5 left-3.5 right-3.5 p-3 rounded-xl bg-[#0E121B]/95 backdrop-blur-md border border-[#DFBD7F]/40 text-center">
+                <div className="absolute bottom-3.5 left-3.5 right-3.5 p-3 rounded-xl bg-[#10121A]/95 backdrop-blur-md border border-[#DFBD7F]/40 text-center">
                   <span className="text-[10px] sm:text-xs text-[#F5E6CC] font-bold uppercase tracking-wider block">
                     Registro Oficial da Equipe
                   </span>
@@ -68,19 +68,19 @@ export const TeamSection = () => {
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 text-xs sm:text-sm text-slate-200">
-                <div className="flex items-center gap-2.5 p-3 rounded-xl bg-[#0E121B] border border-slate-700/80">
+                <div className="flex items-center gap-2.5 p-3 rounded-xl bg-[#10121A] border border-slate-700/80">
                   <CheckCircle2 className="w-4 h-4 text-[#DFBD7F] flex-shrink-0" />
                   <span>Advocacia Trabalhista Combina</span>
                 </div>
-                <div className="flex items-center gap-2.5 p-3 rounded-xl bg-[#0E121B] border border-slate-700/80">
+                <div className="flex items-center gap-2.5 p-3 rounded-xl bg-[#10121A] border border-slate-700/80">
                   <CheckCircle2 className="w-4 h-4 text-[#DFBD7F] flex-shrink-0" />
                   <span>Cálculos &amp; Direito Previdenciário</span>
                 </div>
-                <div className="flex items-center gap-2.5 p-3 rounded-xl bg-[#0E121B] border border-slate-700/80">
+                <div className="flex items-center gap-2.5 p-3 rounded-xl bg-[#10121A] border border-slate-700/80">
                   <CheckCircle2 className="w-4 h-4 text-[#DFBD7F] flex-shrink-0" />
                   <span>Contencioso Cível &amp; Contratos</span>
                 </div>
-                <div className="flex items-center gap-2.5 p-3 rounded-xl bg-[#0E121B] border border-slate-700/80">
+                <div className="flex items-center gap-2.5 p-3 rounded-xl bg-[#10121A] border border-slate-700/80">
                   <CheckCircle2 className="w-4 h-4 text-[#DFBD7F] flex-shrink-0" />
                   <span>Atendimento Humano &amp; Transparente</span>
                 </div>
@@ -101,7 +101,7 @@ export const TeamSection = () => {
                   href={PROFILE_INFO.whatsappUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-[#0E121B] hover:bg-[#161D2B] text-slate-200 border border-[#DFBD7F]/40 text-xs sm:text-sm font-semibold transition-all"
+                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-[#141722] hover:bg-[#1C202E] text-slate-200 border border-[#DFBD7F]/40 text-xs sm:text-sm font-semibold transition-all"
                 >
                   <span>Agendar com a Equipe</span>
                   <ArrowRight className="w-3.5 h-3.5" />
@@ -114,9 +114,9 @@ export const TeamSection = () => {
 
         {/* 3 Pilares Estruturais da Banca */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
-          <div className="p-7 rounded-2xl bg-[#161D2B] border border-[#DFBD7F]/30 hover:border-[#DFBD7F] transition-all duration-300 shadow-xl flex flex-col justify-between">
+          <div className="p-7 rounded-2xl bg-[#141722] border border-[#DFBD7F]/30 hover:border-[#DFBD7F] transition-all duration-300 shadow-xl flex flex-col justify-between">
             <div className="space-y-3">
-              <div className="w-12 h-12 rounded-xl bg-[#0E121B] border border-[#DFBD7F]/40 flex items-center justify-center text-[#DFBD7F]">
+              <div className="w-12 h-12 rounded-xl bg-[#10121A] border border-[#DFBD7F]/40 flex items-center justify-center text-[#DFBD7F]">
                 <Scale className="w-6 h-6" />
               </div>
               <h3 className="font-serif-editorial text-2xl font-bold text-white">
@@ -134,9 +134,9 @@ export const TeamSection = () => {
             </div>
           </div>
 
-          <div className="p-7 rounded-2xl bg-[#161D2B] border border-[#DFBD7F]/30 hover:border-[#DFBD7F] transition-all duration-300 shadow-xl flex flex-col justify-between">
+          <div className="p-7 rounded-2xl bg-[#141722] border border-[#DFBD7F]/30 hover:border-[#DFBD7F] transition-all duration-300 shadow-xl flex flex-col justify-between">
             <div className="space-y-3">
-              <div className="w-12 h-12 rounded-xl bg-[#0E121B] border border-[#DFBD7F]/40 flex items-center justify-center text-[#DFBD7F]">
+              <div className="w-12 h-12 rounded-xl bg-[#10121A] border border-[#DFBD7F]/40 flex items-center justify-center text-[#DFBD7F]">
                 <Users className="w-6 h-6" />
               </div>
               <h3 className="font-serif-editorial text-2xl font-bold text-white">
@@ -154,9 +154,9 @@ export const TeamSection = () => {
             </div>
           </div>
 
-          <div className="p-7 rounded-2xl bg-[#161D2B] border border-[#DFBD7F]/30 hover:border-[#DFBD7F] transition-all duration-300 shadow-xl flex flex-col justify-between">
+          <div className="p-7 rounded-2xl bg-[#141722] border border-[#DFBD7F]/30 hover:border-[#DFBD7F] transition-all duration-300 shadow-xl flex flex-col justify-between">
             <div className="space-y-3">
-              <div className="w-12 h-12 rounded-xl bg-[#0E121B] border border-[#DFBD7F]/40 flex items-center justify-center text-[#DFBD7F]">
+              <div className="w-12 h-12 rounded-xl bg-[#10121A] border border-[#DFBD7F]/40 flex items-center justify-center text-[#DFBD7F]">
                 <ShieldCheck className="w-6 h-6" />
               </div>
               <h3 className="font-serif-editorial text-2xl font-bold text-white">
@@ -176,7 +176,7 @@ export const TeamSection = () => {
         </div>
 
         {/* Chamada para o Instagram Oficial */}
-        <div className="mt-14 p-6 sm:p-8 rounded-2xl bg-gradient-to-r from-[#161D2B] to-[#0E121B] border border-[#DFBD7F]/40 shadow-xl flex flex-col sm:flex-row items-center justify-between gap-6">
+        <div className="mt-14 p-6 sm:p-8 rounded-2xl bg-gradient-to-r from-[#141722] to-[#10121A] border border-[#DFBD7F]/40 shadow-xl flex flex-col sm:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-4 text-center sm:text-left">
             <div className="w-12 h-12 rounded-xl bg-[#DFBD7F] text-[#0C0F17] flex items-center justify-center flex-shrink-0 shadow-md">
               <InstagramIcon className="w-6 h-6 stroke-[#0C0F17]" />

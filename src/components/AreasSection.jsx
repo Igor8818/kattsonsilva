@@ -26,7 +26,7 @@ export const AreasSection = () => {
           </h2>
           {/* Linha decorativa dourada */}
           <div className="w-16 h-1 bg-[#DFBD7F] mx-auto rounded-full mt-2 mb-3" />
-          <p className="text-[#334E68] text-sm sm:text-base leading-relaxed">
+          <p className="text-[#475569] text-sm sm:text-base leading-relaxed">
             Assessoria jurídica consultiva e contenciosa especializada pelo escritório <strong className="text-[#0B0C10] font-semibold">{PROFILE_INFO.officeName}</strong>, unindo domínio legislativo, agilidade e combatividade processual.
           </p>
         </div>
@@ -41,7 +41,7 @@ export const AreasSection = () => {
                 <span className="text-xs text-[#DFBD7F] font-bold uppercase tracking-wider block">
                   {PROFILE_INFO.oab}
                 </span>
-                <span className="text-[12px] text-[#334E68] block font-medium">
+                <span className="text-[12px] text-[#475569] block font-medium">
                   {PROFILE_INFO.city}
                 </span>
               </div>
@@ -53,7 +53,7 @@ export const AreasSection = () => {
                 <h3 className="text-2xl font-serif-editorial font-bold text-[#0B0C10]">
                   {PROFILE_INFO.officeName}
                 </h3>
-                <p className="text-sm sm:text-base text-[#334E68] mt-1 leading-relaxed">
+                <p className="text-sm sm:text-base text-[#475569] mt-1 leading-relaxed">
                   Banca advocatícia de referência sediada em Itabuna, prestando serviços jurídicos de alta complexidade em toda a Bahia e no território nacional. Especializada no contencioso trabalhista de resultados, na proteção previdenciária e na garantia de direitos fundamentais.
                 </p>
               </div>
@@ -102,7 +102,7 @@ export const AreasSection = () => {
                     {area.title}
                   </h3>
 
-                  <p className="text-[14px] sm:text-base text-[#334E68] leading-relaxed font-normal">
+                  <p className="text-[14px] sm:text-base text-[#475569] leading-relaxed font-normal">
                     {area.shortDesc}
                   </p>
 
@@ -163,7 +163,7 @@ export const AreasSection = () => {
               </div>
             </div>
 
-            <div className="space-y-4 text-sm sm:text-base text-[#334E68] leading-relaxed mt-6">
+            <div className="space-y-4 text-sm sm:text-base text-[#475569] leading-relaxed mt-6">
               {selectedArea.fullContent.map((paragraph, idx) => (
                 <p key={idx}>{paragraph}</p>
               ))}

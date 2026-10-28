@@ -34,7 +34,7 @@ export const ContactSection = () => {
           {/* Coluna Esquerda: Canais Diretos */}
           <div className="lg:col-span-5 space-y-6">
             <div className="space-y-4">
-              <div className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-[#16181F] border border-[#DFBD7F]/40 text-xs text-[#EBD8B8] font-semibold uppercase tracking-wider">
+              <div className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-[#141722] border border-[#DFBD7F]/40 text-xs text-[#EBD8B8] font-semibold uppercase tracking-wider">
                 Atendimento Jurídico
               </div>
               <h2 className="font-serif-editorial text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight">
@@ -54,7 +54,7 @@ export const ContactSection = () => {
                 href={PROFILE_INFO.whatsappUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-4 p-4 rounded-xl bg-[#16181F] border border-[#DFBD7F]/50 hover:border-[#DFBD7F] transition-colors group shadow-md"
+                className="flex items-center gap-4 p-4 rounded-xl bg-[#141722] border border-[#DFBD7F]/50 hover:border-[#DFBD7F] transition-colors group shadow-md"
               >
                 <div className="w-12 h-12 rounded-xl bg-[#DFBD7F] text-[#0B0C10] flex items-center justify-center flex-shrink-0 group-hover:scale-105 transition-transform shadow-md">
                   <WhatsAppIcon className="w-6 h-6 fill-[#0B0C10]" />
@@ -69,8 +69,8 @@ export const ContactSection = () => {
                 </div>
               </a>
 
-              <div className="flex items-center gap-4 p-4 rounded-xl bg-[#16181F] border border-slate-800">
-                <div className="w-12 h-12 rounded-xl bg-[#0B0C10] border border-slate-700 flex items-center justify-center flex-shrink-0 text-[#EBD8B8]">
+              <div className="flex items-center gap-4 p-4 rounded-xl bg-[#141722] border border-slate-800">
+                <div className="w-12 h-12 rounded-xl bg-[#10121A] border border-[#DFBD7F]/30 flex items-center justify-center flex-shrink-0 text-[#EBD8B8]">
                   <Phone className="w-5 h-5" />
                 </div>
                 <div>
@@ -83,8 +83,8 @@ export const ContactSection = () => {
                 </div>
               </div>
 
-              <div className="flex items-center gap-4 p-4 rounded-xl bg-[#16181F] border border-slate-800">
-                <div className="w-12 h-12 rounded-xl bg-[#0B0C10] border border-slate-700 flex items-center justify-center flex-shrink-0 text-[#EBD8B8]">
+              <div className="flex items-center gap-4 p-4 rounded-xl bg-[#141722] border border-slate-800">
+                <div className="w-12 h-12 rounded-xl bg-[#10121A] border border-[#DFBD7F]/30 flex items-center justify-center flex-shrink-0 text-[#EBD8B8]">
                   <Mail className="w-5 h-5" />
                 </div>
                 <div>
@@ -97,8 +97,8 @@ export const ContactSection = () => {
                 </div>
               </div>
 
-              <div className="flex items-center gap-4 p-4 rounded-xl bg-[#16181F] border border-slate-800">
-                <div className="w-12 h-12 rounded-xl bg-[#0B0C10] border border-slate-700 flex items-center justify-center flex-shrink-0 text-[#EBD8B8]">
+              <div className="flex items-center gap-4 p-4 rounded-xl bg-[#141722] border border-slate-800">
+                <div className="w-12 h-12 rounded-xl bg-[#10121A] border border-[#DFBD7F]/30 flex items-center justify-center flex-shrink-0 text-[#EBD8B8]">
                   <MapPin className="w-5 h-5" />
                 </div>
                 <div>
@@ -114,7 +114,7 @@ export const ContactSection = () => {
           </div>
 
           {/* Coluna Direita: Formulário Direcionado para WhatsApp */}
-          <div className="lg:col-span-7 bg-[#16181F] border-2 border-[#DFBD7F]/30 rounded-2xl p-6 sm:p-9 shadow-2xl relative">
+          <div className="lg:col-span-7 bg-[#141722] border-2 border-[#DFBD7F]/30 rounded-2xl p-6 sm:p-9 shadow-2xl relative">
             <div className="flex items-center justify-between pb-6 border-b border-slate-800">
               <div>
                 <h3 className="font-serif-editorial text-2xl sm:text-3xl font-bold text-white">
@@ -143,7 +143,7 @@ export const ContactSection = () => {
                   onChange={(e) =>
                     setFormData({ ...formData, nome: e.target.value })
                   }
-                  className="w-full px-4 py-3 rounded-xl bg-[#0B0C10] border border-slate-700 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-[#DFBD7F] transition-colors"
+                  className="w-full px-4 py-3 rounded-xl bg-[#10121A] border border-[#DFBD7F]/30 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-[#DFBD7F] transition-colors"
                 />
               </div>
 
@@ -156,7 +156,7 @@ export const ContactSection = () => {
                   onChange={(e) =>
                     setFormData({ ...formData, area: e.target.value })
                   }
-                  className="w-full px-4 py-3 rounded-xl bg-[#0B0C10] border border-slate-700 text-white text-sm focus:outline-none focus:border-[#DFBD7F] transition-colors"
+                  className="w-full px-4 py-3 rounded-xl bg-[#10121A] border border-[#DFBD7F]/30 text-white text-sm focus:outline-none focus:border-[#DFBD7F] transition-colors"
                 >
                   {AREAS_ATUACAO.map((area) => (
                     <option key={area.id} value={area.title} className="bg-[#0B0C10] text-white">
@@ -181,7 +181,7 @@ export const ContactSection = () => {
                   onChange={(e) =>
                     setFormData({ ...formData, mensagem: e.target.value })
                   }
-                  className="w-full px-4 py-3 rounded-xl bg-[#0B0C10] border border-slate-700 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-[#DFBD7F] transition-colors resize-none"
+                  className="w-full px-4 py-3 rounded-xl bg-[#10121A] border border-[#DFBD7F]/30 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-[#DFBD7F] transition-colors resize-none"
                 />
               </div>
 

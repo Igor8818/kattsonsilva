@@ -77,7 +77,7 @@ export const Navbar = () => {
           <div className="flex sm:hidden items-center gap-2">
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="p-2 rounded-lg text-slate-200 hover:text-white bg-[#16181F] border border-slate-800"
+              className="p-2 rounded-lg text-slate-200 hover:text-white bg-[#141722] border border-slate-800"
               aria-label="Abrir Menu"
             >
               {mobileMenuOpen ? <X className="w-5 h-5 text-white" /> : <Menu className="w-5 h-5 text-white" />}

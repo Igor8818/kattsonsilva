@@ -18,7 +18,7 @@ export const ArticlesSection = () => {
             Pesquisas, Artigos &amp; Publicações
           </h2>
           <div className="w-16 h-1 bg-[#DFBD7F] mx-auto rounded-full mt-2 mb-3" />
-          <p className="text-[#334E68] text-sm sm:text-base leading-relaxed">
+          <p className="text-[#475569] text-sm sm:text-base leading-relaxed">
             Produção técnica e reflexões jurídicas extraídas da pesquisa acadêmica e da prática forense no escritório Kattson Silva Advogados.
           </p>
         </div>
@@ -59,7 +59,7 @@ export const ArticlesSection = () => {
                     {artigo.title}
                   </h3>
 
-                  <p className="text-xs sm:text-sm text-[#334E68] leading-relaxed line-clamp-3">
+                  <p className="text-xs sm:text-sm text-[#475569] leading-relaxed line-clamp-3">
                     {artigo.excerpt}
                   </p>
                 </div>
@@ -108,7 +108,7 @@ export const ArticlesSection = () => {
               </p>
             </div>
 
-            <div className="space-y-4 text-sm sm:text-base text-[#334E68] leading-relaxed mt-6 border-t border-slate-100 pt-6">
+            <div className="space-y-4 text-sm sm:text-base text-[#475569] leading-relaxed mt-6 border-t border-slate-100 pt-6">
               {selectedArticle.content.map((p, idx) => (
                 <p key={idx}>{p}</p>
               ))}
