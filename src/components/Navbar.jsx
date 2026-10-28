@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, ArrowUpRight, Scale } from 'lucide-react';
+import { Menu, X, ArrowUpRight } from 'lucide-react';
 import { PROFILE_INFO } from '../data/siteData';
+import { KsLogo } from './KsLogo';
 
 export const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -27,17 +28,15 @@ export const Navbar = () => {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? 'bg-[#0A192F]/95 backdrop-blur-md border-b-2 border-[#DFBD7F] shadow-xl shadow-black/40 py-3.5'
+          ? 'bg-[#0B0C10]/95 backdrop-blur-md border-b-2 border-[#DFBD7F] shadow-xl shadow-black/60 py-3.5'
           : 'bg-transparent py-5'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
-          {/* Logo / Marca */}
-          <a href="#inicio" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-lg overflow-hidden border border-[#DFBD7F]/50 bg-[#102A43] flex-shrink-0 group-hover:border-[#DFBD7F] shadow-md transition-colors flex items-center justify-center">
-              <Scale className="w-5 h-5 text-[#DFBD7F]" />
-            </div>
+          {/* Logo Oficial com Monograma KS do Escritório */}
+          <a href="#inicio" className="flex items-center gap-3.5 group">
+            <KsLogo size="sm" />
             <div>
               <span className="font-serif-editorial text-xl sm:text-2xl font-bold tracking-tight text-white group-hover:text-[#DFBD7F] transition-colors block leading-tight">
                 Kattson Silva
@@ -67,7 +66,7 @@ export const Navbar = () => {
               href={PROFILE_INFO.whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-[#DFBD7F] hover:bg-[#EBD8B8] text-[#0A192F] font-bold text-xs sm:text-sm shadow-md shadow-[#DFBD7F]/20 hover:shadow-[#DFBD7F]/40 transition-all transform hover:-translate-y-0.5"
+              className="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-[#DFBD7F] hover:bg-[#EBD8B8] text-[#0B0C10] font-bold text-xs sm:text-sm shadow-md shadow-[#DFBD7F]/20 hover:shadow-[#DFBD7F]/40 transition-all transform hover:-translate-y-0.5"
             >
               <span>Falar com Dr. Kattson</span>
               <ArrowUpRight className="w-4 h-4 stroke-[2.5]" />
@@ -78,7 +77,7 @@ export const Navbar = () => {
           <div className="flex sm:hidden items-center gap-2">
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="p-2 rounded-lg text-slate-200 hover:text-white bg-[#102A43] border border-slate-700"
+              className="p-2 rounded-lg text-slate-200 hover:text-white bg-[#16181F] border border-slate-800"
               aria-label="Abrir Menu"
             >
               {mobileMenuOpen ? <X className="w-5 h-5 text-white" /> : <Menu className="w-5 h-5 text-white" />}
@@ -89,7 +88,7 @@ export const Navbar = () => {
 
       {/* Mobile Drawer */}
       {mobileMenuOpen && (
-        <div className="md:hidden bg-[#0A192F]/98 backdrop-blur-xl border-b-2 border-[#DFBD7F] px-6 py-5 space-y-4 shadow-2xl">
+        <div className="md:hidden bg-[#0B0C10]/98 backdrop-blur-xl border-b-2 border-[#DFBD7F] px-6 py-5 space-y-4 shadow-2xl">
           {navLinks.map((link) => (
             <a
               key={link.label}
@@ -106,7 +105,7 @@ export const Navbar = () => {
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setMobileMenuOpen(false)}
-              className="w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-[#DFBD7F] hover:bg-[#EBD8B8] text-[#0A192F] font-bold text-sm shadow-md"
+              className="w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-[#DFBD7F] hover:bg-[#EBD8B8] text-[#0B0C10] font-bold text-sm shadow-md"
             >
               <span>Falar pelo WhatsApp</span>
               <ArrowUpRight className="w-4 h-4" />

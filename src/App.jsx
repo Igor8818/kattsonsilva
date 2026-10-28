@@ -12,11 +12,11 @@ import { DEFAULT_PHOTOS, PROFILE_INFO } from './data/siteData';
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-[#0A192F] text-[#F1F5F9] flex flex-col font-sans selection:bg-[#DFBD7F] selection:text-[#0A192F]">
+    <div className="min-h-screen bg-[#0B0C10] text-[#F1F5F9] flex flex-col font-sans selection:bg-[#DFBD7F] selection:text-[#0B0C10]">
       {/* Navegação Fixa */}
       <Navbar />
 
-      {/* Conteúdo com Ritmo e Alternância (Dark Navy -> Warm Off-White -> Dark Navy -> Warm Off-White -> Dark Navy) */}
+      {/* Conteúdo com Ritmo e Alternância (Piano Black -> Warm Off-White -> Piano Black -> Warm Off-White -> Piano Black) */}
       <main className="flex-1">
         <HeroSection photos={DEFAULT_PHOTOS} />
         <AreasSection />

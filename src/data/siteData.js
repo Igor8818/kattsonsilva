@@ -45,8 +45,9 @@ export const PROFILE_INFO = {
 
 export const DEFAULT_PHOTOS = {
   hero: './images/kattson-silva-hero.jpg',
-  about: './images/kattson-silva.jpg',
-  teamLead: './images/kattson-silva-hero.jpg',
+  about: './images/kattson-office-portrait.jpg',
+  team: './images/equipe-kattson-silva.jpg',
+  plaque: './images/kattson-escritorio.jpg',
 };
 
 export const METRICAS_DESTAQUE = [

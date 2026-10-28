@@ -1,7 +1,8 @@
 import React from 'react';
-import { ArrowUp, Scale } from 'lucide-react';
+import { ArrowUp } from 'lucide-react';
 import { PROFILE_INFO } from '../data/siteData';
 import { InstagramIcon, LattesIcon } from './Icons';
+import { KsLogo } from './KsLogo';
 
 export const Footer = () => {
   const scrollToTop = () => {
@@ -9,15 +10,13 @@ export const Footer = () => {
   };
 
   return (
-    <footer className="bg-[#071324] border-t-2 border-[#DFBD7F]/40 pt-16 pb-12 text-slate-300 text-xs">
+    <footer className="bg-[#07080A] border-t-2 border-[#DFBD7F]/40 pt-16 pb-12 text-slate-300 text-xs">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-slate-800">
           {/* Identidade */}
           <div className="md:col-span-5 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-11 h-11 rounded-lg overflow-hidden border border-[#DFBD7F]/40 bg-[#102A43] flex-shrink-0 shadow-md flex items-center justify-center">
-                <Scale className="w-6 h-6 text-[#DFBD7F]" />
-              </div>
+              <KsLogo size="sm" />
               <div>
                 <h4 className="font-serif-editorial text-xl font-bold text-white">
                   {PROFILE_INFO.name}
@@ -37,7 +36,7 @@ export const Footer = () => {
                 href={PROFILE_INFO.instagramUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-8 h-8 rounded-lg bg-[#102A43] border border-slate-700 hover:border-[#DFBD7F] hover:text-[#EBD8B8] flex items-center justify-center transition-colors"
+                className="w-8 h-8 rounded-lg bg-[#16181F] border border-slate-700 hover:border-[#DFBD7F] hover:text-[#EBD8B8] flex items-center justify-center transition-colors"
                 title="Instagram Oficial"
               >
                 <InstagramIcon className="w-4 h-4 text-[#DFBD7F]" />
@@ -46,7 +45,7 @@ export const Footer = () => {
                 href={PROFILE_INFO.lattesUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-8 h-8 rounded-lg bg-[#102A43] border border-slate-700 hover:border-[#DFBD7F] hover:text-[#EBD8B8] flex items-center justify-center transition-colors"
+                className="w-8 h-8 rounded-lg bg-[#16181F] border border-slate-700 hover:border-[#DFBD7F] hover:text-[#EBD8B8] flex items-center justify-center transition-colors"
                 title="Currículo Lattes CNPq"
               >
                 <LattesIcon className="w-4 h-4 text-[#DFBD7F]" />
@@ -130,7 +129,7 @@ export const Footer = () => {
             </p>
             <button
               onClick={scrollToTop}
-              className="p-2 rounded-lg bg-[#102A43] border border-slate-700 text-slate-300 hover:text-white hover:border-[#DFBD7F] transition-colors"
+              className="p-2 rounded-lg bg-[#16181F] border border-slate-700 text-slate-300 hover:text-white hover:border-[#DFBD7F] transition-colors"
               title="Voltar ao topo"
             >
               <ArrowUp className="w-3.5 h-3.5" />

@@ -28,13 +28,13 @@ export const ContactSection = () => {
   };
 
   return (
-    <section id="contato" className="py-16 md:py-28 bg-[#0A192F] text-white relative overflow-hidden">
+    <section id="contato" className="py-16 md:py-28 bg-[#0B0C10] text-white relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-start">
           {/* Coluna Esquerda: Canais Diretos */}
           <div className="lg:col-span-5 space-y-6">
             <div className="space-y-4">
-              <div className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-[#102A43] border border-[#DFBD7F]/40 text-xs text-[#EBD8B8] font-semibold uppercase tracking-wider">
+              <div className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-[#16181F] border border-[#DFBD7F]/40 text-xs text-[#EBD8B8] font-semibold uppercase tracking-wider">
                 Atendimento Jurídico
               </div>
               <h2 className="font-serif-editorial text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight">
@@ -54,10 +54,10 @@ export const ContactSection = () => {
                 href={PROFILE_INFO.whatsappUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-4 p-4 rounded-xl bg-[#102A43] border border-[#DFBD7F]/50 hover:border-[#DFBD7F] transition-colors group shadow-md"
+                className="flex items-center gap-4 p-4 rounded-xl bg-[#16181F] border border-[#DFBD7F]/50 hover:border-[#DFBD7F] transition-colors group shadow-md"
               >
-                <div className="w-12 h-12 rounded-xl bg-[#DFBD7F] text-[#0A192F] flex items-center justify-center flex-shrink-0 group-hover:scale-105 transition-transform shadow-md">
-                  <WhatsAppIcon className="w-6 h-6 fill-[#0A192F]" />
+                <div className="w-12 h-12 rounded-xl bg-[#DFBD7F] text-[#0B0C10] flex items-center justify-center flex-shrink-0 group-hover:scale-105 transition-transform shadow-md">
+                  <WhatsAppIcon className="w-6 h-6 fill-[#0B0C10]" />
                 </div>
                 <div>
                   <span className="text-xs text-[#EBD8B8] font-bold block uppercase tracking-wider">
@@ -69,8 +69,8 @@ export const ContactSection = () => {
                 </div>
               </a>
 
-              <div className="flex items-center gap-4 p-4 rounded-xl bg-[#102A43] border border-slate-800">
-                <div className="w-12 h-12 rounded-xl bg-[#0A192F] border border-slate-700 flex items-center justify-center flex-shrink-0 text-[#EBD8B8]">
+              <div className="flex items-center gap-4 p-4 rounded-xl bg-[#16181F] border border-slate-800">
+                <div className="w-12 h-12 rounded-xl bg-[#0B0C10] border border-slate-700 flex items-center justify-center flex-shrink-0 text-[#EBD8B8]">
                   <Phone className="w-5 h-5" />
                 </div>
                 <div>
@@ -83,8 +83,8 @@ export const ContactSection = () => {
                 </div>
               </div>
 
-              <div className="flex items-center gap-4 p-4 rounded-xl bg-[#102A43] border border-slate-800">
-                <div className="w-12 h-12 rounded-xl bg-[#0A192F] border border-slate-700 flex items-center justify-center flex-shrink-0 text-[#EBD8B8]">
+              <div className="flex items-center gap-4 p-4 rounded-xl bg-[#16181F] border border-slate-800">
+                <div className="w-12 h-12 rounded-xl bg-[#0B0C10] border border-slate-700 flex items-center justify-center flex-shrink-0 text-[#EBD8B8]">
                   <Mail className="w-5 h-5" />
                 </div>
                 <div>
@@ -97,8 +97,8 @@ export const ContactSection = () => {
                 </div>
               </div>
 
-              <div className="flex items-center gap-4 p-4 rounded-xl bg-[#102A43] border border-slate-800">
-                <div className="w-12 h-12 rounded-xl bg-[#0A192F] border border-slate-700 flex items-center justify-center flex-shrink-0 text-[#EBD8B8]">
+              <div className="flex items-center gap-4 p-4 rounded-xl bg-[#16181F] border border-slate-800">
+                <div className="w-12 h-12 rounded-xl bg-[#0B0C10] border border-slate-700 flex items-center justify-center flex-shrink-0 text-[#EBD8B8]">
                   <MapPin className="w-5 h-5" />
                 </div>
                 <div>
@@ -114,7 +114,7 @@ export const ContactSection = () => {
           </div>
 
           {/* Coluna Direita: Formulário Direcionado para WhatsApp */}
-          <div className="lg:col-span-7 bg-[#102A43] border-2 border-[#DFBD7F]/30 rounded-2xl p-6 sm:p-9 shadow-2xl relative">
+          <div className="lg:col-span-7 bg-[#16181F] border-2 border-[#DFBD7F]/30 rounded-2xl p-6 sm:p-9 shadow-2xl relative">
             <div className="flex items-center justify-between pb-6 border-b border-slate-800">
               <div>
                 <h3 className="font-serif-editorial text-2xl sm:text-3xl font-bold text-white">
@@ -143,7 +143,7 @@ export const ContactSection = () => {
                   onChange={(e) =>
                     setFormData({ ...formData, nome: e.target.value })
                   }
-                  className="w-full px-4 py-3 rounded-xl bg-[#0A192F] border border-slate-700 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-[#DFBD7F] transition-colors"
+                  className="w-full px-4 py-3 rounded-xl bg-[#0B0C10] border border-slate-700 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-[#DFBD7F] transition-colors"
                 />
               </div>
 
@@ -156,14 +156,14 @@ export const ContactSection = () => {
                   onChange={(e) =>
                     setFormData({ ...formData, area: e.target.value })
                   }
-                  className="w-full px-4 py-3 rounded-xl bg-[#0A192F] border border-slate-700 text-white text-sm focus:outline-none focus:border-[#DFBD7F] transition-colors"
+                  className="w-full px-4 py-3 rounded-xl bg-[#0B0C10] border border-slate-700 text-white text-sm focus:outline-none focus:border-[#DFBD7F] transition-colors"
                 >
                   {AREAS_ATUACAO.map((area) => (
-                    <option key={area.id} value={area.title} className="bg-[#0A192F] text-white">
+                    <option key={area.id} value={area.title} className="bg-[#0B0C10] text-white">
                       {area.title}
                     </option>
                   ))}
-                  <option value="Outra Demanda" className="bg-[#0A192F] text-white">
+                  <option value="Outra Demanda" className="bg-[#0B0C10] text-white">
                     Outra Demanda / Dúvida Geral
                   </option>
                 </select>
@@ -181,16 +181,16 @@ export const ContactSection = () => {
                   onChange={(e) =>
                     setFormData({ ...formData, mensagem: e.target.value })
                   }
-                  className="w-full px-4 py-3 rounded-xl bg-[#0A192F] border border-slate-700 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-[#DFBD7F] transition-colors resize-none"
+                  className="w-full px-4 py-3 rounded-xl bg-[#0B0C10] border border-slate-700 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-[#DFBD7F] transition-colors resize-none"
                 />
               </div>
 
               <div className="pt-2">
                 <button
                   type="submit"
-                  className="w-full inline-flex items-center justify-center gap-3 px-6 py-4 rounded-xl bg-[#DFBD7F] hover:bg-[#EBD8B8] text-[#0A192F] font-bold text-sm sm:text-base shadow-lg shadow-[#DFBD7F]/20 hover:shadow-[#DFBD7F]/40 transition-all transform hover:-translate-y-0.5"
+                  className="w-full inline-flex items-center justify-center gap-3 px-6 py-4 rounded-xl bg-[#DFBD7F] hover:bg-[#EBD8B8] text-[#0B0C10] font-bold text-sm sm:text-base shadow-lg shadow-[#DFBD7F]/20 hover:shadow-[#DFBD7F]/40 transition-all transform hover:-translate-y-0.5"
                 >
-                  <WhatsAppIcon className="w-5 h-5 fill-[#0A192F]" />
+                  <WhatsAppIcon className="w-5 h-5 fill-[#0B0C10]" />
                   <span>Enviar Mensagem pelo WhatsApp</span>
                   <ArrowRight className="w-4 h-4" />
                 </button>
